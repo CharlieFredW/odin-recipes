@@ -1,13 +1,25 @@
-/* styeles.css */
+body, .container {
+    margin: 0;
+    padding: 0;
+}
 
-* {
+body {
     background-color: white;
-
 }
 
 .container {
-    padding-left: 25%;
-    padding-right: 25%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30% ;
+    padding-right: 30%;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.background-wrapper {
+    padding-bottom: 15px;
+    background-color: #F2BB77;
+    margin: -80px;
 }
 
 h1, h2 {
@@ -23,13 +35,13 @@ h1, h2 {
 h1 {
     background-color: #6F7302;
     padding: 15px 125px 15px 125px;
-    font-size: 58px;
+    font-size: 28px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 h2 {
-    background-color: #F2BB77;
+    background-color: #BF4904;
     padding: 0px 80px 0px 80px ;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -38,6 +50,7 @@ h2 {
 .center-container {
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -49,30 +62,3 @@ h2 {
     align-items: center;
     height: 100%;
 }
-
-.odin-image {
-    display: block;
-    margin: 0 auto;
-}
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
-
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-    max-width: 1200px;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-  }
